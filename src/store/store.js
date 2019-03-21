@@ -4,7 +4,7 @@ import filterReducer from './reducers/filterReducer';
 
 const rootReducer = combineReducers({
     todos: todoReducer,
-    visibilityFilters: filterReducer
+    visibilityFilter: filterReducer
 });
 
 const store = createStore(rootReducer);

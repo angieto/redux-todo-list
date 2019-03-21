@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from './Link';
+import Link from '../containers/Link';
 import { VisibilityFilters } from '../store/actions/types';
 
 const Footer = () => (

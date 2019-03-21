@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Link = ({ active, children, onClick }) => {
-    if (active) {
+const Link = ({ isActive, children, onClick }) => {
+    if (isActive) {
         return <span>{children}</span>
     }
     return (
         <button
             onClick={onClick}
-            disabed={active}
+            disabled={isActive}
         >
             {children}
         </button>
